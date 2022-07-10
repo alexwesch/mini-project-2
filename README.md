@@ -3,7 +3,7 @@
 ### [Assignment](assignment.md)
 
 ## Project/Goals
-Project goals is to become more framilar with API calls 
+Project goals are to become more familiar with making API calls and parsing the results. 
 
 ## Process
 ### Register for API access for the three sources. Read documentation for url and endpoints. 
@@ -19,6 +19,8 @@ Google had the highest number of reviews, possibly because they were aggregating
 
 ## Challenges 
 All of the APIs handled authentication differently. Yelp required the string 'BEARER ' before the API key, and Google would not accept the API key as a authentication header.
+I cloned the git repository into a folder that was nested inside a folder that was linked to another git repository, which caused issues when trying to push to github. I eventualty uploaded the files to github manually and cloned the repository into a fresh folder.
 
 ## Future Goals
 I would have made a function that would take a query keyword, then go through the josn from tha api and add the values for that keyword to a dictionary. 
+Using the google directions api and OR-tools to solve navigational problems
