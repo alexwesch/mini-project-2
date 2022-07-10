@@ -14,7 +14,7 @@ Project goals is to become more framilar with API calls
 ### Use SQLite3 to create database from dataframes
 
 ## Results
-Yelp seemed to have the highest quality of results. The results from Yelp most accurately represented the currently available business in the area, with newly openned businesses appearing more frequently. Google and Foursquare results contained comparitively a significant proportion of defunct businesses in their listings. Both Yelp and Foursquare returned the maximum number of listings allowed from a single call of their respective APIs, at fifty each. Google API returned twenty results, but 
+Yelp seemed to have the highest quality of results. The results from Yelp most accurately represented the currently available business in the area, with newly openned businesses appearing more frequently. Google and Foursquare results contained comparitively a significant proportion of defunct businesses in their listings. Both Yelp and Foursquare returned the maximum number of listings allowed from a single call of their respective APIs, at fifty each. Google API returned twenty results, but the API could return mulpiple pages of results. Doordash appears to have the worst coverage, being the only source that did not have review scores for all businesses. 
 Google had the highest number of reviews, possibly because they were aggregating from other sources. 
 
 ## Challenges 
