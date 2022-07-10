@@ -1,0 +1,18 @@
+CREATE TABLE IF NOT EXISTS "google_results" (
+"name" TEXT,
+  "address" TEXT,
+  "rating" REAL,
+  "total ratings" INTEGER
+);
+CREATE TABLE IF NOT EXISTS "foursquare_results" (
+"name" TEXT,
+  "address" TEXT,
+  "rating" REAL,
+  "total ratings" INTEGER
+);
+CREATE TABLE IF NOT EXISTS "yelp_results" (
+"name" TEXT,
+  "address" TEXT,
+  "rating" INTEGER,
+  "total ratings" INTEGER
+);
